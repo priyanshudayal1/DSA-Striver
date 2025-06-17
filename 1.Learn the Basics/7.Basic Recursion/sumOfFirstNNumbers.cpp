@@ -4,7 +4,6 @@ using namespace std;
 int f(int n,int sum,int i=1){
     if (n<i) return sum;
     sum+=n;
-    // if (n==1) return;
     f(n-1,sum);
     
 }
